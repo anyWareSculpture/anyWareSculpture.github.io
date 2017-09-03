@@ -59,7 +59,7 @@
 /******/ 	
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "3a6455bb2e894e48ef7c"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "c5018ee351414e47672d"; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentParents = []; // eslint-disable-line no-unused-vars
@@ -706,7 +706,7 @@
 /******/ 	__webpack_require__.h = function() { return hotCurrentHash; };
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return hotCreateRequire(1190)(__webpack_require__.s = 1190);
+/******/ 	return hotCreateRequire(1191)(__webpack_require__.s = 1191);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -36549,7 +36549,7 @@ module.exports = isLength;
 
 "use strict";
 
-var tls = __webpack_require__(1188)
+var tls = __webpack_require__(1189)
 
 function buildBuilder (mqttClient, opts) {
   var connection
@@ -43878,7 +43878,7 @@ module.exports = generate
 
 "use strict";
 
-var net = __webpack_require__(1187)
+var net = __webpack_require__(1188)
 
 /*
   variables port and host can be removed since
@@ -51749,7 +51749,7 @@ util.inherits = __webpack_require__(11);
 /*</replacement>*/
 
 /*<replacement>*/
-var debugUtil = __webpack_require__(1189);
+var debugUtil = __webpack_require__(1190);
 var debug = void 0;
 if (debugUtil && debugUtil.debuglog) {
   debug = debugUtil.debuglog('stream');
@@ -62088,6 +62088,8 @@ var _temp = function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react_bootstrap__ = __webpack_require__(435);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__login__ = __webpack_require__(527);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__game_selector__ = __webpack_require__(524);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__package_json__ = __webpack_require__(1187);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__package_json___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4__package_json__);
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -62097,6 +62099,8 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
 /*eslint no-extra-parens:0*/
+
+
 
 
 
@@ -62134,7 +62138,8 @@ var TopNav = function (_React$Component) {
             __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
               'a',
               { href: '#' },
-              'anyWare Sculpture'
+              'anyWare Sculpture ',
+              __WEBPACK_IMPORTED_MODULE_4__package_json__["version"]
             )
           )
         ),
@@ -105148,7 +105153,7 @@ function wrappy (fn, cb) {
 /* 1187 */
 /***/ (function(module, exports) {
 
-/* (ignored) */
+module.exports = {"name":"sculpture-emulator-client","version":"1.5.0","description":"The emulator client for the anyWare sculpture","main":" ","directories":{"test":"test"},"scripts":{"build":"webpack --config webpack.config.dev.js","dev":"webpack-dev-server --config webpack.config.dev.js --open","lint":"eslint --ext=.js,.jsx src","test":"echo \"Error: no test specified\" && exit 1"},"repository":{"type":"git","url":"https://github.com/anyWareSculpture/sculpture-emulator-client"},"author":"","license":"MIT","bugs":{"url":"https://github.com/anyWareSculpture/sculpture-emulator-client/issues"},"devDependencies":{"babel-core":"^6.10.4","babel-eslint":"^7.0.0","babel-loader":"^6.2.10","babel-plugin-transform-class-properties":"^6.10.2","babel-preset-es2015":"^6.18.0","babel-preset-es2016":"^6.16.0","babel-preset-es2017":"^6.16.0","babel-preset-react":"^6.16.0","babel-preset-stage-3":"^6.17.0","babel-register":"^6.9.0","babelify":"^7.3.0","bootstrap":"^3.3.7","copy-webpack-plugin":"^4.0.1","css-loader":"^0.26.1","eslint":"^3.8.1","eslint-plugin-babel":"^3.3.0","eslint-plugin-react":"^6.4.1","event-stream":"~3.3.1","file-loader":"^0.9.0","html-webpack-plugin":"^2.26.0","html-webpack-template":"^6.0.0","less":"^2.7.2","less-loader":"^2.2.3","react-bootstrap":"^0.30.7","react-hot-loader":"^3.0.0-beta.6","react-svg-loader":"^1.1.1","run-sequence":"~1.1.0","style-loader":"^0.13.1","through2":"^0.6.5","url-loader":"^0.5.7","webpack":"^2.2.0","webpack-dev-server":"^1.16.2"},"dependencies":{"@anyware/sound-assets":"^1.0.1","anyware":"^1.0.7","babel-polyfill":"^6.9.1","brfs":"^1.4.3","browser-sync":"^2.13.0","flux":"^2.0.3","keymirror":"^0.1.1","lodash":"^4.17.4","react":"^15.2.1","react-dom":"^15.2.1"}}
 
 /***/ }),
 /* 1188 */
@@ -105164,6 +105169,12 @@ function wrappy (fn, cb) {
 
 /***/ }),
 /* 1190 */
+/***/ (function(module, exports) {
+
+/* (ignored) */
+
+/***/ }),
+/* 1191 */
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(498);
