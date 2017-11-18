@@ -76,12 +76,15 @@ anyware_config = {
       
       // level 0
       { rule: 'absolute', disks: { disk0: -90, disk1: 90, disk2: 120 } },
+//      { rule: 'absolute', disks: { disk0: -10, disk1: 0, disk2: 0 } },
       
       // level 1
       { rule: 'relative', disks: { disk0: 90, disk1: -90, disk2: -120 } },
+//      { rule: 'absolute', disks: { disk0: -10, disk1: 0, disk2: 0 } },
       
       // level 2
       { rule: 'absolute', disks: { disk0: 180, disk1: 45, disk2: -90 } },
+//      { rule: 'absolute', disks: { disk0: -10, disk1: 0, disk2: 0 } },
       
     ],
     CONTROL_MAPPINGS: {
